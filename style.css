@@ -1,0 +1,113 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(img/photo.png);
+}
+h1 {
+    font-size: 60px; 
+    font-family: london; 
+    text-align: center;
+    color: aliceblue;
+}
+ol {
+    font-size: 100%;
+}
+li {
+    font-family: cursive; 
+    color: rgb(255, 255, 255);
+}
+p {
+    font-family: varsity; 
+    text-align: center; 
+    color: rgb(194, 197, 0);
+}
+img {
+    margin-left: 43%; 
+    width: 13%;
+}
+container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+h3 {
+    font-size: 150%; 
+    font-family: cursive; 
+    text-align: center; 
+    color: rgb(182, 185, 0);
+}
+h6 {
+    font-size: 150%; 
+    font-family: cursive; 
+    text-align: center; 
+    color: rgb(182, 185, 0);
+}
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@font-face {
+    font-family: vendya;
+    src: url(vendya.otf) format('opentype'),
+        url(vendya.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: varsity;
+    src: url(varsity_regular.ttf) format('truetype'),
+        url(varsity_regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: london;
+    src: url(OldLondon.ttf) format('truetype'),
+        url(OldLondon.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-family: vendya;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    transition: 0.3s ease;
+    border-radius: 5px;
+    background-color: aqua;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 83.9%;
+}
+button:hover {
+    background-color: #d1d400b6;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
